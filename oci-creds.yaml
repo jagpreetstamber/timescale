@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: oci-creds
+  namespace: ldl-timescale-ns
+stringData:
+  username: ase-ecr-user
+  password: 7YcXVkC9lUCsJXz

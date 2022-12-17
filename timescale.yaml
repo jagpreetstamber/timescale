@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: timescaledb-single
+  namespace: ldl-timescale-ns
+spec:
+  interval: 5m0s
+  type: "oci"
+  url: oci://ecr.dbe-ghxqzc3.microsoftdatabox.com:31001/helm/timescale
+  secretRef:
+    name: oci-creds

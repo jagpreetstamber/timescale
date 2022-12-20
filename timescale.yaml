@@ -5,4 +5,4 @@ metadata:
   namespace: ldl-timescale-ns
 spec:
   interval: 5m0s
-  url: https://github.com/timescale/helm-charts
+  url: https://charts.timescale.com/
